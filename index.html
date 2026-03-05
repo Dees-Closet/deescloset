@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ==================== START META ==================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ==================== END META ==================== -->
+
+
+<!-- ==================== BASIC SEO META TAGS ==================== -->
+
+<title>Dee's Closet | Trendy Fashion & Accessories</title>
+<!-- Title shown in browser tab and search results -->
+
+<meta name="description" content="Discover Dee's Closet — your go-to online boutique for stylish handbags, shoes, and accessories in Kenya. Shop trendy fashion pieces and buy directly via WhatsApp.">
+<!-- Meta description: appears under your link in Google search results -->
+
+<meta name="keywords" content="Dee's Closet, fashion Kenya, handbags, shoes, accessories, trendy clothes, WhatsApp shopping">
+<!-- Keywords: optional, but can help with niche/local searches -->
+
+<meta name="author" content="Dee's Closet">
+<!-- Author information -->
+
+<!-- ==================== OPEN GRAPH (SOCIAL SHARE) ==================== -->
+
+<meta property="og:title" content="Dee's Closet | Trendy Fashion & Accessories">
+<!-- Title shown when shared on Facebook, WhatsApp, LinkedIn -->
+
+<meta property="og:description" content="Shop stylish handbags, shoes, and accessories directly from Dee's Closet. Fast WhatsApp ordering, trendy fashion at affordable prices.">
+<!-- Description shown in social previews -->
+
+<meta property="og:url" content="https://dees-closet.vercel.app">
+<!-- Canonical URL of your site -->
+
+<meta property="og:type" content="website">
+<!-- Type of content -->
+
+<meta property="og:image" content="https://dees-closet.vercel.app/images/favicon/metaimg.png">
+<!-- Full URL to your meta image -->
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- Recommended dimensions for crisp previews -->
+
+<!-- ==================== TWITTER CARD ==================== -->
+
+<meta name="twitter:card" content="summary_large_image">
+<!-- Ensures Twitter shows a large preview image -->
+
+<meta name="twitter:title" content="Dee's Closet | Trendy Fashion & Accessories">
+<meta name="twitter:description" content="Discover handbags, shoes, and accessories from Dee's Closet. Order instantly via WhatsApp.">
+<meta name="twitter:image" content="https://dees-closet.vercel.app/images/favicon/metaimg.png">
+<!-- Same image for Twitter previews -->
+
+<!-- ==================== FAVICON ==================== -->
+
+<link rel="icon" href="/images/favicon/favicon.ico" type="image/x-icon">
+<!-- Browser tab icon -->
+
+
+
+
+    <!-- ==================== START GOOGLE FONTS ==================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- ==================== END GOOGLE FONTS ==================== -->
+
+    <!-- ==================== START FONT AWESOME ==================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- ==================== END FONT AWESOME ==================== -->
+
+<link rel="shortcut icon" href="images/favicon/favicon-img.png" type="image/x-icon">
+
+
+    <!-- ==================== START CSS FILE ==================== -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ==================== END CSS FILE ==================== -->
+</head>
+<body>
+    
+    
+    <!-- ==================== START HEADER ==================== -->
+<header>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="images/favicon/favicon-img.png" alt="">
+            Dee's Closet
+            </div>
+
+        <!-- HAMBURGER MENU BUTTON -->
+        <div class="hamburger">☰</div>
+
+        <!-- NAVIGATION LINKS (DESKTOP) -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SLIDING MOBILE MENU -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- OVERLAY BACKDROP -->
+    <div class="overlay"></div>
+</header>
+<!-- ==================== END HEADER ==================== -->
+
+
+<!-- ==================== START HERO SECTION ==================== -->
+<section class="hero-alt">
+    <!-- BLURRED COLOR ACCENTS -->
+    <div class="blur-accent accent1"></div>
+    <div class="blur-accent accent2"></div>
+
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Welcome to Dee's Closet</h1>
+            <p>Elevate your fashion with our curated collection of clothes, handbags, and shoes.</p>
+            <a href="#products" class="cta-btn">Explore Collection</a>
+        </div>
+    </div>
+</section>
+<!-- ==================== END HERO SECTION ==================== -->
+
+
+
+<!-- ==================== START FILTERS ==================== -->
+<section class="filters container">
+    <div class="filter-group">
+        <label for="category-filter">Category</label>
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="clothes">Clothes</option>
+            <option value="handbags">Handbags</option>
+            <option value="shoes">Shoes</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="price-filter">Price</label>
+        <select id="price-filter">
+            <option value="all">All Prices</option>
+            <option value="1000">Below 1000</option>
+            <option value="2000">Below 2000</option>
+            <option value="3000">Below 3000</option>
+        </select>
+    </div>
+</section>
+<!-- ==================== END FILTERS ==================== -->
+
+
+
+<!-- ==================== START PRODUCT GRID ==================== -->
+<section id="products" class="products container">
+    <h2>Our Collection</h2>
+    <div class="product-grid" id="product-grid">
+        <!-- Products injected via JS -->
+    </div>
+</section>
+<!-- ==================== END PRODUCT GRID ==================== -->
+
+
+
+
+
+<!-- ==================== START CONTACT ==================== -->
+<section id="contact" class="contact container">
+    <div class="contact-wrapper">
+        <!-- Contact Text -->
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We’d love to hear from you! Reach us directly on WhatsApp or send us a quick message below.</p>
+            <a href="https://wa.me/254707901561?text=Hello%20Dee's%20Closet,%20I'm%20interested%20in%20your%20products" 
+               target="_blank" 
+               class="whatsapp-btn-contact">Chat on WhatsApp</a>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" onsubmit="sendWhatsAppMessage(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="send-btn">Send via WhatsApp</button>
+        </form>
+    </div>
+</section>
+<!-- ==================== END CONTACT ==================== -->
+
+
+
+<!-- ==================== START FOOTER ==================== -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Logo -->
+        <div class="footer-logo">Dee's Closet</div>
+
+        <!-- Quick Links -->
+        <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="terms.html">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Socials -->
+        <div class="footer-socials">
+            <a href="https://wa.me/254707901561" target="_blank" class="social whatsapp">WhatsApp</a>
+            <a href="#" class="social instagram">Instagram</a>
+            <a href="#" class="social facebook">Facebook</a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="footer-copy">&copy; 2026 Dee's Closet. All rights reserved.</p>
+    </div>
+</footer>
+<!-- ==================== END FOOTER ==================== -->
+
+    
+
+    <!-- ==================== START JAVASCRIPT FILE ==================== -->
+    <script src="js/script.js"></script>
+    <!-- ==================== END JAVASCRIPT FILE ==================== -->
+</body>
+</html>

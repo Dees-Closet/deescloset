@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Handbag",
+    "price": 1500,
+    "category": "handbags",
+    "image": "images/handbags/image1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Summer Dress",
+    "price": 2200,
+    "category": "clothes",
+    "image": "images/clothes/image2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Stylish Heels",
+    "price": 1800,
+    "category": "shoes",
+    "image": "images/shoes/image3.jpg"
+  }
+]
