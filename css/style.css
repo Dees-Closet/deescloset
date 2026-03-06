@@ -558,6 +558,38 @@ select:focus {
 /* ==================== ENDS ANIMATIONS ==================== */
 
 
+/* MAP CONTAINER TO MAKE IFRAME RESPONSIVE */
+.map-container {
+  position: relative;        /* ALLOWS ABSOLUTE POSITIONING INSIDE */
+  width: 100%;               /* DEFAULT FULL WIDTH ON MOBILE */
+  padding-bottom: 56.25%;    /* 16:9 ASPECT RATIO */
+  height: 0;                 /* HEIGHT CONTROLLED BY PADDING */
+  overflow: hidden;          /* HIDES ANY OVERFLOW */
+  border-radius: 12px;       /* OPTIONAL ROUNDED CORNERS */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* SUBTLE SHADOW */
+  margin: 0 auto;            /* CENTER ON PAGE */
+}
+
+/* RESPONSIVE IFRAME INSIDE MAP CONTAINER */
+.map-container iframe {
+  position: absolute;        /* ABSOLUTE POSITION TO FILL CONTAINER */
+  top: 0;                    /* ALIGN TO TOP */
+  left: 0;                   /* ALIGN TO LEFT */
+  width: 100%;               /* FULL WIDTH */
+  height: 100%;              /* FULL HEIGHT */
+  border: 0;                 /* REMOVE DEFAULT BORDER */
+}
+
+/* MEDIA QUERY FOR BIG SCREENS */
+@media (min-width: 992px) {
+  .map-container {
+    width: 70%;              /* REDUCE WIDTH TO 70% ON LARGE SCREENS */
+    padding-bottom: 40%;     /* REDUCE HEIGHT PROPORTIONALLY */
+  }
+}
+
+
+
 
 /* ==================== CONTACT SECTION ==================== */
 .contact {
