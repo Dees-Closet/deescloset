@@ -130,18 +130,18 @@ const productsData = [
       
     ]
   },
-  {
+  /*{
     id: 4,
     name: "Full Dress",
     price: 900,
     category: "clothes",
     images: [
       "images/clothes/fullDress/image1.jpg",
-      "images/clothes/fullDress/image1.jpg",
+      "images/clothes/fullDress/image1.jpg"
      
       
     ]
-  },
+  },*/
   {
     id: 4,
     name: "Stripped Tack Suit",
