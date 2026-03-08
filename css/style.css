@@ -802,6 +802,48 @@ select:focus {
 }
 /* ==================== END FOOTER CSS ==================== */
 
+/* ==================== CUSTOM FOOTER STYLING START ==================== */
+.bm-footer {
+  background: #222;            /* DARK BACKGROUND COLOR */
+  color: #eee;                 /* LIGHT TEXT COLOR */
+  text-align: center;          /* CENTER CONTENT */
+  padding: 1rem;               /* SPACE AROUND CONTENT */
+  font-size: 0.7rem;           /* SLIGHTLY SMALLER TEXT SIZE */
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+  width: 90%;
+  max-width: 400px;
+}
+
+.bm-footer-text {
+  margin: 0;                   /* REMOVE DEFAULT PARAGRAPH MARGIN */
+}
+
+/* WHATSAPP LINK STYLING START */
+.bm-whatsapp-link {
+  color: #25D366;              /* WHATSAPP GREEN COLOR */
+  font-weight: bold;           /* MAKE LINK STAND OUT */
+  text-decoration: none;       /* REMOVE UNDERLINE */
+  margin-left: 5px;            /* SMALL SPACE BEFORE LINK */
+  transition: color 0.3s;      /* SMOOTH COLOR CHANGE ON HOVER */
+}
+
+.bm-whatsapp-link:hover {
+  color: #1ebe57;              /* DARKER GREEN ON HOVER */
+}
+/* WHATSAPP LINK STYLING END */
+
+/* RESPONSIVE FOOTER START */
+@media (max-width: 600px) {
+  .bm-footer {
+    font-size: 0.8rem;         /* SMALLER TEXT ON MOBILE */
+    padding: 0.8rem;           /* LESS PADDING ON MOBILE */
+  }
+}
+/* RESPONSIVE FOOTER END */
+/* ==================== CUSTOM FOOTER STYLING END ==================== */
+
+
 
 
 /* ==================== ABOUT US ==================== */
