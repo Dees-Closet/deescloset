@@ -1,8 +1,9 @@
 /* ==================== START ACCESS CONTROL ==================== */
 
 /* ==================== CONFIGURATION ==================== */
-/* DEADLINE: Wednesday 18th, 2026 at 9:05 PM (24 hours from now) */
-const ACCESS_DEADLINE = new Date('2026-01-18T21:05:00').getTime();
+/* DEADLINE: Unix Timestamp in milliseconds */
+/* Your timestamp: 1773856800 (seconds) × 1000 = 1773856800000 (milliseconds) */
+const ACCESS_DEADLINE = 1773856800000;
 /* ==================== END CONFIGURATION ==================== */
 
 (function() {
@@ -36,18 +37,30 @@ const ACCESS_DEADLINE = new Date('2026-01-18T21:05:00').getTime();
                 <h1 style="font-size: 2rem; margin-bottom: 15px; color: #333;">Website Unavailable</h1>
                 <p style="font-size: 1.1rem; color: #555; max-width: 500px; margin-bottom: 30px; line-height: 1.6;">
                     This preview has expired. The website is currently unavailable.<br>
-                    Please contact Developer {0745736283} for access!.
+                    Please contact Bright Minds Software for access.
                 </p>
-                <a href="mailto:info@deescloset.com" style="
+                <a href="https://wa.me/254745736283?text=Hello%20Bright%20Minds%2C%20I%20need%20access%20to%20Dee's%20Closet" 
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   style="
                     padding: 12px 30px;
-                    background: linear-gradient(135deg, #ff69b4 0%, #e05a9f 100%);
+                    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
                     color: white;
                     text-decoration: none;
                     border-radius: 50px;
                     font-weight: 600;
                     transition: 0.3s;
-                    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
-                ">Contact Support</a>
+                    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                ">
+                    <span style="font-size: 1.2rem;">📱</span>
+                    <span>Contact via WhatsApp</span>
+                </a>
+                <p style="margin-top: 20px; font-size: 0.9rem; color: #666;">
+                    Or email: <a href="mailto:brightmindssoftware@gmail.com" style="color: #ff69b4; text-decoration: none;">brightmindssoftware@gmail.com</a>
+                </p>
                 <p style="margin-top: 40px; font-size: 0.8rem; color: #666;">
                     &copy; ${new Date().getFullYear()} Dee's Closet. All Rights Reserved.<br>
                     <span style="opacity: 0.6;">Built by Bright Minds Software</span>
