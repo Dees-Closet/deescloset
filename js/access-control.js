@@ -3,7 +3,7 @@
 /* ==================== CONFIGURATION ==================== */
 /* DEADLINE: Unix Timestamp in milliseconds */
 /* Your timestamp: 1773856800 (seconds) × 1000 = 1773856800000 (milliseconds) */
-const ACCESS_DEADLINE = 1773856800000;
+const ACCESS_DEADLINE = 1773774900000;
 /* ==================== END CONFIGURATION ==================== */
 
 (function() {
