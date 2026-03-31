@@ -405,6 +405,108 @@ const productsData = [
         images: [
             "images/handbags/A42/image1.jpg"
         ]
+    },
+    {
+        id: 43,
+        name: "A 44 Handbag",
+        price: 1000,
+        category: "handbags",
+        images: [
+            "images/handbags/A44/image1.jpg"
+        ]
+    },
+    {
+        id: 44,
+        name: "A 45 Handbag",
+        price: 1000,
+        category: "handbags",
+        images: [
+            "images/handbags/A45/image1.jpg"
+        ]
+    },
+    {
+        id: 45,
+        name: "Dress Plus Waist Belt",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/DressBelt/image1.jpg",
+            "images/clothes/DressBelt/image2.jpg",
+            "images/clothes/DressBelt/image3.jpg",
+            "images/clothes/DressBelt/image4.jpg"
+        ]
+    },
+    {
+        id: 46,
+        name: "Multi Colored Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/ColoredDress/image1.jpg"
+        ]
+    },
+    {
+        id: 47,
+        name: "Off-Neck Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/OffNeckDress/image1.jpg"
+        ]
+    },
+    {
+        id: 48,
+        name: "Top & Skirt",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/Top-skirt/image1.jpg"
+        ]
+    },
+    {
+        id: 49,
+        name: "Boxed Full Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/BoxedDress/image1.jpg"
+        ]
+    },
+    {
+        id: 50,
+        name: "Color Mapped Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/ColorMap/image1.jpg"
+        ]
+    },
+    {
+        id: 51,
+        name: "Mini New Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/MiniNewDress/image1.jpg"
+        ]
+    },
+    {
+        id: 52,
+        name: "Steps To Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/StepsToDress/image1.jpg"
+        ]
+    },
+    {
+        id: 53,
+        name: "Chest Off Dress",
+        price: 1000,
+        category: "clothes",
+        images: [
+            "images/clothes/ChestOffDress/image1.jpg"
+        ]
     }
 ];
 /* ==================== END PRODUCTS DATA ==================== */
@@ -1112,3 +1214,8 @@ function updateContacts() {
     }
 }
 /* ==================== END UPDATE CONTACTS ==================== */
+
+
+
+
+
