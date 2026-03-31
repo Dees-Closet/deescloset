@@ -2034,3 +2034,210 @@ button {
 /* ==================== END RESPONSIVE DESIGN ==================== */
 
 /* ==================== END ABOUT & TERMS PAGES - COMPLETE CSS ==================== */
+
+
+
+/* ================= COMPACT PRODUCT CARDS (JUMIA STYLE) ================= */
+@media (max-width: 480px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+        gap: 10px;
+    }
+
+    .product-card {
+        border-radius: 6px;
+    }
+
+    /* Smaller Image */
+    .product-slider {
+        height: 160px;
+    }
+
+    /* Reduce padding */
+    .product-info {
+        padding: 10px;
+    }
+
+    /* Smaller text */
+    .product-category {
+        font-size: 0.65rem;
+        margin-bottom: 5px;
+    }
+
+    .product-name {
+        font-size: 0.85rem;
+        margin-bottom: 6px;
+        line-height: 1.2;
+
+        /* Limit text to 2 lines */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .product-price {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+
+    /* Compact buttons */
+    .product-actions {
+        gap: 6px;
+        flex-direction: column;
+    }
+
+    .product-actions .btn {
+        padding: 6px;
+        font-size: 0.75rem;
+    }
+
+    /* Hide slider arrows for clean look */
+    .slider-btn {
+        display: none;
+    }
+
+    /* Smaller dots */
+    .slider-dot {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+.slider-btn {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
+
+.slider-btn.prev {
+    left: 5px;
+}
+
+.slider-btn.next {
+    right: 5px;
+}
+
+
+/* Desktop Only Hover */
+.product-slider img {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.product-card:hover .product-slider img.active {
+    transform: scale(1.05);
+}
+
+
+
+/* hero */
+/* ==================== NEW HERO DESIGN ==================== */
+.hero {
+    position: relative;
+    padding: 50px 0;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    overflow: hidden;
+}
+
+/* Light background image */
+.hero-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.08; /* softer */
+    top: 0;
+    left: 0;
+}
+
+/* Container layout */
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Left content */
+.hero-content {
+    flex: 1;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* Buttons */
+.hero-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Right image */
+.hero-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* ==================== HERO MOBILE OPTIMIZATION ==================== */
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 30px 0; /* reduce height */
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    /* Hide right image for compact layout */
+    .hero-side {
+        display: none;
+    }
+
+    /* Make background even lighter */
+    .hero-image {
+        opacity: 0.05;
+    }
+}
